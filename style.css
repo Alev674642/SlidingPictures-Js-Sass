@@ -461,6 +461,10 @@ FOOTER
 RESPONSIVE
 */
 @media all and (max-width: 1150px) {
+  .logo {
+    margin: 1em 0 auto 0;
+  }
+
   .mini-menu-right {
     display: block;
     overflow: hidden;
@@ -484,6 +488,7 @@ RESPONSIVE
 
   #button-menu-responsive {
     opacity: 100;
+    margin: 0.6em 1em 0 0;
   }
 
   .main-section {
@@ -541,6 +546,11 @@ RESPONSIVE
   .second-part .menu li {
     text-align: center;
     margin: 1em 1.5em;
+  }
+}
+@media all and (max-width: 450px) {
+  .input-passion {
+    width: 8em;
   }
 }
 
